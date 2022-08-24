@@ -1,3 +1,3 @@
-SELECT DISTINCT BillingCountry
-FROM Invoice
-ORDER BY BillingCountry;
+SELECT *
+FROM Employee
+WHERE Title = 'Sales Support Agent'
